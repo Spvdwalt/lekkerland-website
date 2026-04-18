@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="af">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lekker Land Naskool | After Care Sasolburg</title>
+  <meta name="description" content="Lekker Land Naskool — after care in Sasolburg with transport, homework help, and a safe, caring environment for children 7-13.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/logo-main.png">
+</head>
+<body class="page-aftercare">
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="header-logo">
+        <img src="images/logo-aftercare.png" alt="Lekker Land Naskool">
+      </a>
+      <nav class="site-nav">
+        <a href="#about" data-t="nav.about">Oor Ons</a>
+        <a href="#services" data-t="nav.services">Dienste</a>
+        <a href="#transport" data-t="nav.transport">Vervoer</a>
+        <a href="#food" data-t="nav.food">Kos</a>
+        <a href="#daily" data-t="nav.daily">Roetine</a>
+        <a href="#contact" data-t="nav.contact">Kontak</a>
+        <a href="preschool.html" class="nav-switch" data-t="nav.toPreschool">Kleuterskool →</a>
+        <div class="lang-toggle">
+          <button data-lang="af" onclick="setLang('af')">AF</button>
+          <button data-lang="en" onclick="setLang('en')">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero hero-aftercare">
+    <div class="hero-shapes">
+      <div class="hero-blob hero-blob-1"></div>
+      <div class="hero-blob hero-blob-2"></div>
+      <div class="hero-blob hero-blob-3"></div>
+    </div>
+    <div class="hero-content">
+      <span class="sticker" data-t="aftercare.heroSticker">Naskool</span>
+      <h1 data-t="aftercare.heroTitle">Meer as net<br>naskoolsorg 🎒</h1>
+      <p class="hero-subtitle" data-t="aftercare.heroSubtitle">Veilige vervoer · Huiswerkhulp · 'n Tweede tuiste vir ouderdomme 7 – 13</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary" data-t="aftercare.heroBtnEnrol">Skryf Vandag In</a>
+        <a href="#about" class="btn-ghost" data-t="aftercare.heroBtnLearn">Lees Meer</a>
+      </div>
+    </div>
+    <svg class="wave-divider" viewBox="0 0 1440 100" preserveAspectRatio="none">
+      <path d="M0,50 C240,100 480,0 720,50 C960,100 1200,0 1440,50 L1440,100 L0,100 Z" fill="var(--cream)"/>
+    </svg>
+  </section>
+
+  <!-- HERO PHOTO BAND -->
+  <section class="photo-band">
+    <div class="photo-band-inner">
+      <div class="photo-placeholder photo-placeholder-wide">
+        <span>📷</span>
+        <strong>REPLACE ME</strong>
+        <em>Wide photo — kids doing homework or the transport vehicles (1600×500px)</em>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <span class="sticker" data-t="aftercare.aboutSticker">Oor Naskool</span>
+      <h2 data-t="aftercare.aboutTitle">Gemoedsrus<br>vir ouers</h2>
+      <p class="lead" data-t="aftercare.aboutLead">Lekker Land Naskool bied dieselfde sorg, integriteit, en aandag aan detail wat ons kleuterskool 'n vertroude naam in Sasolburg gemaak het. Nadat die skoolklok lui, word jou kind veilig na ons vervoer, gevoer, met huiswerk gehelp, en gelukkig besig gehou totdat jy arriveer.</p>
+      <p class="lead highlight" data-t="aftercare.aboutHighlight">'n Tweede tuiste vir kinders. Gemoedsrus vir ouers.</p>
+
+      <div class="about-photo">
+        <div class="photo-placeholder">
+          <span>📷</span>
+          <strong>REPLACE ME</strong>
+          <em>Photo of after-care area / kids doing activities (800×500px)</em>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section section-alt">
+    <div class="container">
+      <span class="sticker sticker-orange" data-t="aftercare.servicesSticker">Wat Ons Bied</span>
+      <h2 data-t="aftercare.servicesTitle">Alles wat jou kind nodig het</h2>
+      <div class="values-grid">
+        <div class="value-card value-pink">
+          <div class="value-icon">📚</div>
+          <h3 data-t="aftercare.service1Title">Huiswerkhulp</h3>
+          <p data-t="aftercare.service1Text">Begeleide huiswerktyd in 'n kalm, gestruktureerde omgewing. Ons span help met begrip, nie net voltooiing nie.</p>
+        </div>
+        <div class="value-card value-orange">
+          <div class="value-icon">🚐</div>
+          <h3 data-t="aftercare.service2Title">Veilige Vervoer</h3>
+          <p data-t="aftercare.service2Text">Drie voertuie haal kinders direk by die skool op, sodat ouers nooit hoef te bekommer oor die skool-tot-sorg gaping nie.</p>
+        </div>
+        <div class="value-card value-green">
+          <div class="value-icon">🌟</div>
+          <h3 data-t="aftercare.service3Title">Omgee-Omgewing</h3>
+          <p data-t="aftercare.service3Text">'n Veilige, toesig-gehoue ruimte waar kinders ontspan, sosialiseer, en hul middag geniet na 'n lang skooldag.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRANSPORT -->
+  <section id="transport" class="section">
+    <div class="container">
+      <span class="sticker sticker-green" data-t="aftercare.transportSticker">Vervoer</span>
+      <h2 data-t="aftercare.transportTitle">Ons haal hulle op 🚐</h2>
+      <p class="lead" data-t="aftercare.transportLead">Ons haal jou kind by die skool op en, wanneer nodig, vervoer hulle na naskoolse aktiwiteite — sodat jy op jou dag kan fokus sonder die gery.</p>
+
+      <div class="info-block info-block-large">
+        <h3 data-t="aftercare.schoolsTitle">Skole waar ons oplaai</h3>
+        <ul class="school-list">
+          <li>Fonteine</li>
+          <li>Noord Skool</li>
+          <li>Vaalpark</li>
+        </ul>
+        <p class="info-extra" data-t="aftercare.transportExtra">Ons vervoer ook kinders na hul na-ure aktiwiteite — sport, ekstra lesse, en meer. Een minder ding vir ouers om te koördineer.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOD -->
+  <section id="food" class="section section-alt">
+    <div class="container">
+      <span class="sticker sticker-pink" data-t="aftercare.foodSticker">Kos</span>
+      <h2 data-t="aftercare.foodTitle">'n Behoorlike maaltyd<br>na 'n lang dag 🍽️</h2>
+      <p class="lead" data-t="aftercare.foodLead">Kinders kom honger aan na skool. Ons bedien 'n warm, gebalanseerde middagete ontwerp deur 'n voedingkundige — gevolg deur 'n gesonde middagversnapering voor huis toe gaan.</p>
+
+      <div class="food-layout">
+        <div class="food-photo">
+          <div class="photo-placeholder">
+            <span>📷</span>
+            <strong>REPLACE ME</strong>
+            <em>Photo of hot lunch being served (600×600px square)</em>
+          </div>
+        </div>
+
+        <div class="food-features">
+          <div class="food-feature">
+            <div class="food-check">🍲</div>
+            <p data-t="aftercare.food1">Warm, gaar middagete met aankoms</p>
+          </div>
+          <div class="food-feature">
+            <div class="food-check">🍎</div>
+            <p data-t="aftercare.food2">Gesonde middagversnapering</p>
+          </div>
+          <div class="food-feature">
+            <div class="food-check">👩‍⚕️</div>
+            <p data-t="aftercare.food3">Voedingkundige-ontwerpte spyskaarte</p>
+          </div>
+          <div class="food-feature">
+            <div class="food-check">🌱</div>
+            <p data-t="aftercare.food4">Allergieë en dieetvereistes word geakkommodeer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DAILY ROUTINE -->
+  <section id="daily" class="section">
+    <div class="container">
+      <span class="sticker sticker-pink" data-t="aftercare.dailySticker">Daaglikse Roetine</span>
+      <h2 data-t="aftercare.dailyTitle">'n Tipiese middag</h2>
+      <div class="programme-grid">
+        <div class="programme-card">
+          <div class="programme-age-badge">Step 1</div>
+          <h3 data-t="aftercare.step1Title">🚐 Aflaai</h3>
+          <p data-t="aftercare.step1Text">Ons voertuie haal kinders veilig en direk by Fonteine, Noord Skool, en Vaalpark op.</p>
+        </div>
+        <div class="programme-card">
+          <div class="programme-age-badge">Step 2</div>
+          <h3 data-t="aftercare.step2Title">🍽️ Aankoms & Middagete</h3>
+          <p data-t="aftercare.step2Text">Kinders kom aan, vestig hul, en geniet 'n maaltyd in 'n ontspanne, verwelkomende omgewing.</p>
+        </div>
+        <div class="programme-card">
+          <div class="programme-age-badge">Step 3</div>
+          <h3 data-t="aftercare.step3Title">📝 Huiswerktyd</h3>
+          <p data-t="aftercare.step3Text">Gestruktureerde, toesig-gehoue huiswerksessie met hulp beskikbaar vir alle vakke.</p>
+        </div>
+        <div class="programme-card">
+          <div class="programme-age-badge">Step 4</div>
+          <h3 data-t="aftercare.step4Title">🎨 Vryspel & Aktiwiteite</h3>
+          <p data-t="aftercare.step4Text">Sodra huiswerk klaar is, geniet kinders speletjies, buitespel, en sosiale tyd totdat ouers arriveer.</p>
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div class="info-icon">🕐</div>
+        <div>
+          <h3 data-t="aftercare.hoursTitle">Besigheidsure</h3>
+          <p data-t="aftercare.hoursText">Maandag – Vrydag · 12:00 – 18:00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY -->
+  <section class="section section-alt gallery-section">
+    <div class="container">
+      <div class="gallery-grid">
+        <div class="photo-placeholder">
+          <span>📷</span>
+          <strong>REPLACE ME</strong>
+          <em>Homework in progress</em>
+        </div>
+        <div class="photo-placeholder">
+          <span>📷</span>
+          <strong>REPLACE ME</strong>
+          <em>Transport vehicle</em>
+        </div>
+        <div class="photo-placeholder">
+          <span>📷</span>
+          <strong>REPLACE ME</strong>
+          <em>Activities area</em>
+        </div>
+        <div class="photo-placeholder">
+          <span>📷</span>
+          <strong>REPLACE ME</strong>
+          <em>Outdoor play</em>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-contact">
+    <div class="container">
+      <span class="sticker sticker-green" data-t="aftercare.contactSticker">Kontak Ons</span>
+      <h2 data-t="aftercare.contactTitle">Skryf jou kind in</h2>
+      <p class="lead" data-t="aftercare.contactLead">Gee jou kind 'n veilige, gelukkige middag en gee jouself gemoedsrus. Kontak ons om 'n besoek te reël of inskrywing te bespreek.</p>
+
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <h3 data-t="shared.contactAddress">Adres</h3>
+          <p>Billingham Street<br>Sasolburg</p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <h3 data-t="shared.contactPhone">Foon</h3>
+          <p><a href="tel:+27769577959">+27 76 957 7959</a></p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <h3 data-t="shared.contactEmail">E-pos</h3>
+          <p><a href="mailto:admin@lekker-land.co.za">admin@lekker-land.co.za</a></p>
+        </div>
+      </div>
+
+      <div class="cta-block">
+        <a href="tel:+27769577959" class="btn-primary" data-t="shared.btnCall">Bel Ons Nou</a>
+        <a href="mailto:admin@lekker-land.co.za" class="btn-ghost" data-t="shared.btnEmail">Stuur 'n E-pos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-tagline">Waar Leer Lekker Is ✨</p>
+      <p>© Lekker Land (Pty) Ltd</p>
+      <p class="footer-nav">
+        <a href="index.html" data-t="shared.footerHome">← Tuis</a> &nbsp;·&nbsp;
+        <a href="preschool.html" data-t="shared.footerPreschool">Kleuterskool →</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="translations.js"></script>
+</body>
+</html>

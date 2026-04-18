@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="af">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lekker Land Preschool | Sasolburg</title>
+  <meta name="description" content="Lekker Land Preschool in Sasolburg. Quality early childhood education from 3 months to Grade R.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/logo-main.png">
+</head>
+<body class="page-preschool">
+
+  <!-- =========================================== -->
+  <!-- HEADER + NAV + LANGUAGE TOGGLE              -->
+  <!-- =========================================== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="header-logo">
+        <img src="images/logo-preschool.png" alt="Lekker Land">
+      </a>
+      <nav class="site-nav">
+        <a href="#about" data-t="nav.about">Oor Ons</a>
+        <a href="#values" data-t="nav.values">Waardes</a>
+        <a href="#programme" data-t="nav.programme">Program</a>
+        <a href="#food" data-t="nav.food">Kos</a>
+        <a href="#parents" data-t="nav.parents">Ouers</a>
+        <a href="#contact" data-t="nav.contact">Kontak</a>
+        <a href="aftercare.html" class="nav-switch" data-t="nav.toAftercare">Naskool →</a>
+        <div class="lang-toggle">
+          <button data-lang="af" onclick="setLang('af')">AF</button>
+          <button data-lang="en" onclick="setLang('en')">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =========================================== -->
+  <!-- HERO SECTION                                -->
+  <!-- =========================================== -->
+  <section class="hero hero-preschool">
+    <div class="hero-shapes">
+      <div class="hero-blob hero-blob-1"></div>
+      <div class="hero-blob hero-blob-2"></div>
+      <div class="hero-blob hero-blob-3"></div>
+    </div>
+    <div class="hero-content">
+      <span class="sticker" data-t="preschool.heroSticker">Kleuterskool</span>
+      <h1 data-t="preschool.heroTitle">Waar klein<br>drome opstyg 🚀</h1>
+      <p class="hero-subtitle" data-t="preschool.heroSubtitle">Kwaliteit vroeë kinderontwikkeling van 3 maande tot Graad R</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary" data-t="preschool.heroBtnEnrol">Skryf Vandag In</a>
+        <a href="#about" class="btn-ghost" data-t="preschool.heroBtnLearn">Lees Meer</a>
+      </div>
+    </div>
+    <svg class="wave-divider" viewBox="0 0 1440 100" preserveAspectRatio="none">
+      <path d="M0,50 C240,100 480,0 720,50 C960,100 1200,0 1440,50 L1440,100 L0,100 Z" fill="var(--cream)"/>
+    </svg>
+  </section>
+
+  <!-- =========================================== -->
+  <!-- HERO PHOTO BAND                             -->
+  <!-- REPLACE: wide landscape photo of premises   -->
+  <!-- =========================================== -->
+  <section class="photo-band">
+    <div class="photo-band-inner">
+      <div class="photo-placeholder photo-placeholder-wide">
+        <span>📷</span>
+        <strong>REPLACE ME</strong>
+        <em>Wide photo of new premises (1600×500px recommended)<br>Playground, building, or entrance</em>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== -->
+  <!-- ABOUT SECTION                               -->
+  <!-- =========================================== -->
+  <section id="about" class="section">
+    <div class="container">
+      <span class="sticker sticker-orange" data-t="preschool.aboutSticker">Oor Ons</span>
+      <h2 data-t="preschool.aboutTitle">'n Plek waar kinders<br>werklik gesien word</h2>
+      <p class="lead" data-t="preschool.aboutLead">By Lekker Land Kleuterskool skep ons 'n warm, veilige en stimulerende omgewing waar elke kind versorg word om sy of haar volle potensiaal te bereik. Gestig deur ouers wat werklik die waarde van vroeë onderrig verstaan, is ons kleuterskool 'n lewendige gemeenskap waar elke dag met leer, spel, en opregte sorg gevul is.</p>
+      <p class="lead highlight" data-t="preschool.aboutHighlight">Ons berei nie net jou kind vir Graad 1 voor nie — ons berei hulle voor om daarin te presteer.</p>
+
+      <!-- About photo -->
+      <div class="about-photo">
+        <div class="photo-placeholder">
+          <span>📷</span>
+          <strong>REPLACE ME</strong>
+          <em>Team / classroom photo (800×500px)<br>Shows the atmosphere of your school</em>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== -->
+  <!-- VALUES SECTION                              -->
+  <!-- =========================================== -->
+  <section id="values" class="section section-alt">
+    <div class="container">
+      <span class="sticker sticker-green" data-t="preschool.valuesSticker">Ons Waardes</span>
+      <h2 data-t="preschool.valuesTitle">Wat maak ons anders</h2>
+      <div class="values-grid">
+        <div class="value-card value-pink">
+          <div class="value-icon">💖</div>
+          <h3 data-t="preschool.valueIntegrityTitle">Integriteit</h3>
+          <p data-t="preschool.valueIntegrityText">Ons werk met eerlikheid en deursigtigheid in elke aspek van ons sorg en onderrig. Ouers weet altyd wat hulle kinders leer en hoe hulle groei.</p>
+        </div>
+        <div class="value-card value-orange">
+          <div class="value-icon">🛡️</div>
+          <h3 data-t="preschool.valueSafetyTitle">Veiligheid</h3>
+          <p data-t="preschool.valueSafetyText">Ons nuwe, ruim fasiliteit is gebou na die hoogste veiligheidstandaarde, met veilige toegangsbeheer en 'n omgee-span wat elke kind persoonlik ken.</p>
+        </div>
+        <div class="value-card value-green">
+          <div class="value-icon">🎨</div>
+          <h3 data-t="preschool.valueEdutainmentTitle">Edutainment</h3>
+          <p data-t="preschool.valueEdutainmentText">Ons kombineer tradisionele onderrig met spel-gebaseerde leer, wat onderrig beide pret en effektief maak. Kinders gaan elke dag huis toe opgewonde oor wat hulle geleer het.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== -->
+  <!-- PROGRAMME SECTION                           -->
+  <!-- =========================================== -->
+  <section id="programme" class="section">
+    <div class="container">
+      <span class="sticker" data-t="preschool.programmeSticker">Program</span>
+      <h2 data-t="preschool.programmeTitle">Leer op elke ouderdom</h2>
+      <p class="lead" data-t="preschool.programmeLead">Ons neem kinders van 3 maande tot Graad R, met ouderdomgepaste leer en sorg op elke vlak.</p>
+
+      <div class="programme-grid">
+        <div class="programme-card">
+          <div class="programme-age-badge" data-t="preschool.prog1Age">3 maande – 2 jaar</div>
+          <h3 data-t="preschool.prog1Title">Babas & Kleuters</h3>
+          <p data-t="preschool.prog1Text">Sagte, liefdevolle sorg in 'n veilige en stimulerende omgewing. Fokus op sensoriese ontwikkeling, roetine, en vroeë sosiale interaksie.</p>
+        </div>
+        <div class="programme-card">
+          <div class="programme-age-badge" data-t="preschool.prog2Age">2 – 4 jaar</div>
+          <h3 data-t="preschool.prog2Title">Vroeë Leerders</h3>
+          <p data-t="preschool.prog2Text">Spel-gebaseerde leer met gestruktureerde aktiwiteite. Taalontwikkeling, fyn en growwe motoriese vaardighede, en kreatiewe uitdrukking.</p>
+        </div>
+        <div class="programme-card">
+          <div class="programme-age-badge" data-t="preschool.prog3Age">4 – 5 jaar</div>
+          <h3 data-t="preschool.prog3Title">Voor-Graad R</h3>
+          <p data-t="preschool.prog3Text">Bou die fondament vir formele skool. Geletterdheid, syfervaardigheid, en selfvertroue deur begeleide spel en groepaktiwiteite.</p>
+        </div>
+        <div class="programme-card programme-featured">
+          <div class="programme-age-badge" data-t="preschool.prog4Age">5 – 6 jaar</div>
+          <h3 data-t="preschool.prog4Title">Graad R — Lekker Lite</h3>
+          <p data-t="preschool.prog4Text">Alles ingesluit teen <strong>R1500/maand</strong> — skryfbehoeftes, voorraad, alles wat jou kind nodig het. Geen verborge ekstras nie, net kwaliteit onderrig.</p>
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div class="info-icon">🕐</div>
+        <div>
+          <h3 data-t="preschool.hoursTitle">Besigheidsure</h3>
+          <p data-t="preschool.hoursText">Maandag – Vrydag · 06:00 – 18:00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== -->
+  <!-- FOOD SECTION (NEW)                          -->
+  <!-- =========================================== -->
+  <section id="food" class="section section-alt">
+    <div class="container">
+      <span class="sticker sticker-orange" data-t="preschool.foodSticker">Kos</span>
+      <h2 data-t="preschool.foodTitle">Gesonde kos,<br>gelukkige kinders 🥗</h2>
+      <p class="lead" data-t="preschool.foodLead">Elke maaltyd en versnapering word deur 'n gekwalifiseerde voedingkundige ontwerp — lekker genoeg dat kinders dit werklik eet, en voedsaam genoeg om hul besige dae aan te dryf.</p>
+
+      <div class="food-layout">
+        <!-- Food photo placeholder -->
+        <div class="food-photo">
+          <div class="photo-placeholder">
+            <span>📷</span>
+            <strong>REPLACE ME</strong>
+            <em>Photo of healthy meal / kids eating<br>(600×600px square)</em>
+          </div>
+        </div>
+
+        <!-- Food features list -->
+        <div class="food-features">
+          <div class="food-feature">
+            <div class="food-check">🍎</div>
+            <p data-t="preschool.food1">Vars vrugte daagliks</p>
+          </div>
+          <div class="food-feature">
+            <div class="food-check">🥪</div>
+            <p data-t="preschool.food2">Gebalanseerde ontbyt, middagete, en versnaperings</p>
+          </div>
+          <div class="food-feature">
+            <div class="food-check">🌱</div>
+            <p data-t="preschool.food3">Allergieë en dieetvereistes word geakkommodeer</p>
+          </div>
+          <div class="food-feature">
+            <div class="food-check">✅</div>
+            <p data-t="preschool.food4">Alle maaltye ingesluit in fooie — geen ekstra kostes nie</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== -->
+  <!-- TESTIMONIALS SECTION                        -->
+  <!-- =========================================== -->
+  <section id="parents" class="section">
+    <div class="container">
+      <span class="sticker sticker-orange" data-t="preschool.parentsSticker">Van Ons Ouers</span>
+      <h2 data-t="preschool.parentsTitle">Moenie net ons woord daarvoor vat nie</h2>
+      <div class="testimonials-grid">
+        <blockquote class="quote-pink">
+          <p data-t="testimonials.quote1">Lekker Land is by ver die beste kleuterskool in Sasolburg. Hulle harte loop oor van liefde vir die kinders. My seun het soveel gegroei in die tyd wat hy daar is.</p>
+          <cite data-t="testimonials.quote1cite">— Carmen Steyn</cite>
+        </blockquote>
+        <blockquote class="quote-green">
+          <p data-t="testimonials.quote2">Lekker Land bied 'n veilige omgewing vir kinders om hul belangstellings te verken en vriendskappe te bou. Ek sal Lekker Land 'n duisend keer aanbeveel!</p>
+          <cite data-t="testimonials.quote2cite">— Veruscha Bornman</cite>
+        </blockquote>
+        <blockquote class="quote-orange">
+          <p data-t="testimonials.quote3">Die beste skool in Sasolburg. My kind is meer as gelukkig en ek is 'n trotse mamma van Lekker Land. Daar is nie beter as Lekker Land nie.</p>
+          <cite data-t="testimonials.quote3cite">— Moniqe Marais</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== -->
+  <!-- PHOTO GALLERY BAND                          -->
+  <!-- =========================================== -->
+  <section class="section section-alt gallery-section">
+    <div class="container">
+      <div class="gallery-grid">
+        <div class="photo-placeholder">
+          <span>📷</span>
+          <strong>REPLACE ME</strong>
+          <em>Playground photo</em>
+        </div>
+        <div class="photo-placeholder">
+          <span>📷</span>
+          <strong>REPLACE ME</strong>
+          <em>Classroom activity</em>
+        </div>
+        <div class="photo-placeholder">
+          <span>📷</span>
+          <strong>REPLACE ME</strong>
+          <em>Art / creative play</em>
+        </div>
+        <div class="photo-placeholder">
+          <span>📷</span>
+          <strong>REPLACE ME</strong>
+          <em>Outdoor activity</em>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== -->
+  <!-- CONTACT SECTION                             -->
+  <!-- =========================================== -->
+  <section id="contact" class="section section-contact">
+    <div class="container">
+      <span class="sticker sticker-green" data-t="preschool.contactSticker">Kontak Ons</span>
+      <h2 data-t="preschool.contactTitle">Kom kuier by ons</h2>
+      <p class="lead" data-t="preschool.contactLead">Ons sal graag vir jou rondlei en jou aan ons span voorstel. Reël 'n besoek wanneer dit jou pas.</p>
+
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <h3 data-t="shared.contactAddress">Adres</h3>
+          <p>Billingham Street<br>Sasolburg</p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <h3 data-t="shared.contactPhone">Foon</h3>
+          <p><a href="tel:+27769577959">+27 76 957 7959</a></p>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <h3 data-t="shared.contactEmail">E-pos</h3>
+          <p><a href="mailto:admin@lekker-land.co.za">admin@lekker-land.co.za</a></p>
+        </div>
+      </div>
+
+      <div class="cta-block">
+        <a href="tel:+27769577959" class="btn-primary" data-t="shared.btnCall">Bel Ons Nou</a>
+        <a href="mailto:admin@lekker-land.co.za" class="btn-ghost" data-t="shared.btnEmail">Stuur 'n E-pos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== -->
+  <!-- FOOTER                                      -->
+  <!-- =========================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-tagline">Waar Leer Lekker Is ✨</p>
+      <p>© Lekker Land (Pty) Ltd</p>
+      <p class="footer-nav">
+        <a href="index.html" data-t="shared.footerHome">← Tuis</a> &nbsp;·&nbsp;
+        <a href="aftercare.html" data-t="shared.footerAftercare">Naskool →</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="translations.js"></script>
+</body>
+</html>

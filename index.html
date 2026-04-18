@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="af">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lekker Land | Waar Leer Lekker Is</title>
+  <meta name="description" content="Lekker Land Preschool and After Care in Sasolburg. Where learning is fun.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/logo-main.png">
+</head>
+<body class="landing-body">
+
+  <!-- ========================================== -->
+  <!-- LANGUAGE POPUP (shows only on first visit) -->
+  <!-- ========================================== -->
+  <div id="lang-popup" class="lang-popup">
+    <div class="lang-popup-inner">
+      <img src="images/logo-main.png" alt="Lekker Land" class="popup-logo">
+      <h2>Welcome / Welkom</h2>
+      <p>Please choose your language<br>Kies asseblief jou taal</p>
+      <div class="lang-popup-buttons">
+        <button onclick="chooseLang('af')" class="lang-btn lang-btn-af">Afrikaans</button>
+        <button onclick="chooseLang('en')" class="lang-btn lang-btn-en">English</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- LANGUAGE TOGGLE (top-right corner)         -->
+  <!-- ========================================== -->
+  <div class="lang-toggle lang-toggle-landing">
+    <button data-lang="af" onclick="setLang('af')">AF</button>
+    <button data-lang="en" onclick="setLang('en')">EN</button>
+  </div>
+
+  <!-- Floating decorative shapes -->
+  <div class="floating-shapes">
+    <div class="shape shape-pink"></div>
+    <div class="shape shape-orange"></div>
+    <div class="shape shape-green"></div>
+    <div class="star star-1">★</div>
+    <div class="star star-2">★</div>
+    <div class="star star-3">★</div>
+    <div class="star star-4">★</div>
+    <div class="dot dot-1"></div>
+    <div class="dot dot-2"></div>
+    <div class="dot dot-3"></div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- MAIN CONTENT                               -->
+  <!-- ========================================== -->
+  <main class="landing-main">
+    <div class="landing-logo">
+      <img src="images/logo-main.png" alt="Lekker Land">
+    </div>
+
+    <p class="landing-tagline" data-t="landing.tagline">Waar Leer Lekker Is</p>
+    <p class="landing-intro" data-t="landing.intro">Welkom! Kies asseblief waar jy heen wil gaan</p>
+
+    <div class="choice-cards">
+      <!-- PRESCHOOL CARD -->
+      <a href="preschool.html" class="choice-card choice-preschool">
+        <div class="choice-badge" data-t="landing.preschoolAge">Ouderdomme 3 maande – Graad R</div>
+        <h2 data-t="landing.preschoolTitle">Kleuterskool</h2>
+        <p class="choice-desc" data-t="landing.preschoolDesc">Waar klein voetjies hul eerste groot treë in leer, lag en vriendskap gee.</p>
+        <span class="choice-button">
+          <span data-t="landing.preschoolBtn">Gaan na Kleuterskool</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </a>
+
+      <!-- AFTER CARE CARD -->
+      <a href="aftercare.html" class="choice-card choice-aftercare">
+        <div class="choice-badge" data-t="landing.aftercareAge">Ouderdomme 7 – 13</div>
+        <h2 data-t="landing.aftercareTitle">Naskool</h2>
+        <p class="choice-desc" data-t="landing.aftercareDesc">Naskoolsorg wat soos 'n tweede tuiste voel — veilige vervoer, huiswerkhulp, en baie pret.</p>
+        <span class="choice-button">
+          <span data-t="landing.aftercareBtn">Gaan na Naskool</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+      </a>
+    </div>
+
+    <footer class="landing-footer">
+      <div class="footer-line">
+        <span>📍 Billingham Street, Sasolburg</span>
+        <span class="footer-sep">•</span>
+        <a href="tel:+27769577959">+27 76 957 7959</a>
+        <span class="footer-sep">•</span>
+        <a href="mailto:admin@lekker-land.co.za">admin@lekker-land.co.za</a>
+      </div>
+      <p class="copyright">© Lekker Land (Pty) Ltd</p>
+    </footer>
+  </main>
+
+  <script src="translations.js"></script>
+</body>
+</html>
